@@ -24,6 +24,7 @@ class MachineConfigAdmin(admin.ModelAdmin):
 
     list_filter = ['active']
     list_display = [
+        'ramya',
         'name',
         'machine_type',
         'driver',
