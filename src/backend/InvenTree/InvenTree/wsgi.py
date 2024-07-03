@@ -14,4 +14,6 @@ os.environ.setdefault(
     'DJANGO_SETTINGS_MODULE', 'InvenTree.settings'
 )  # pragma: no cover
 
+# raja
+
 application = get_wsgi_application()  # pragma: no cover
